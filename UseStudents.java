@@ -73,6 +73,7 @@ public class UseStudents {
 			}
 		int maxSalary=li.stream().map(Student::getMarks).max(Integer::compare).get();
 		System.out.println("Max mark from all female student:"+ maxSalary);
+		System.out.println(maxSalary);
 		
 		
 		
